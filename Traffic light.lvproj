@@ -13,7 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support VIs" Type="Folder"/>
-		<Item Name="TypeDef" Type="Folder"/>
+		<Item Name="TypeDef" Type="Folder">
+			<Item Name="Traffic Light--cluster.ctl" Type="VI" URL="/D/LabVIEW Projects/Traffic-Light-Intersection-Project/Traffic Light--cluster.ctl"/>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
